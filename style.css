@@ -11,6 +11,7 @@
     color: #fff;
     background-color: #121212;
     scroll-behavior: smooth;
+    width: 100vw;
   }
   
   a {
