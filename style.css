@@ -5,19 +5,18 @@
     box-sizing: border-box;
   }
   
+  @media (max-width:600px) {
+    body{
+      width:615px;
+    }
+    
+  }
   body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
     color: #fff;
     background-color: #121212;
     scroll-behavior: smooth;
-   
-  }
- @media (max-width:600px) {
-    body{
-      width:615px;
-    }
-    
   }
   
   a {
@@ -187,6 +186,7 @@
     color: #ff5722;
   }
   
+  
   .project-cards {
     display: flex;
     justify-content: space-around;
@@ -222,6 +222,18 @@
   .card p {
     font-size: 1rem;
     color: #ccc;
+  }
+  .card >a{
+    font-weight: 700;
+    
+  }
+  .card >p :hover{
+    color: #ad2f2f;
+    cursor: pointer;
+    font-weight: 800;
+   
+
+    
   }
   
   /* Contact Section */
